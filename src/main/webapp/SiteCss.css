@@ -1,0 +1,541 @@
+html, body {
+margin: 0;
+padding: 0;
+min-height: 100%;
+}
+#wrapper{
+min-height: 100%;
+
+}
+.body-content{
+  /** Altura do rodapé tem que ser igual a isso aqui e vice-versa **/
+padding-bottom: 433px;
+padding-top: 138px;
+}
+footer{
+background: #ffab62;
+width: 100%;
+height: 100px;
+position: absolute;
+bottom: 0;
+left: 0;
+}
+.cor{color: red; 
+display: flex;  
+flex-direction: column; 
+align-items: flex-start;}
+
+/* NAVBAR-INICIO*/
+.fixed-top{
+	display: flex;
+	flex-direction: column;
+	top:0;
+	right:0;
+	left:0;
+	height:150px;
+	z-index:1030;
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+ul{
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF7804;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  float: left;
+  border-right: 1px solid #FFFFFF;
+  width: 130px;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: Red Hat Display;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #CC5F02;
+  text-decoration: none;
+  color: white;
+}
+.barra1{
+width: 100%;
+height: 52px;
+display: flex;
+background: #FF7804;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+z-index: 1;}
+
+.barrainicial{
+width: 100%;
+height: 98px;
+display: flex;
+background: #131313;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+flex-flow: row;
+align-items: flex-end;
+z-index: 2;}
+
+.p1{
+	display: flex; 
+	flex-direction: row; 
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+	width: 55%;
+}
+
+.p2{
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	width: 45%;
+}
+
+.logo{
+width: 330px;
+height: 84px;
+background-image: url(imagens/logo1.png);
+}
+
+.pesquisa{
+width: 90%;
+height: 100%;
+border-top-right-radius: 100px;
+border-bottom-right-radius: 100px;
+border-right-color:#FFF;
+background-color: white;
+}
+
+.lupa{
+	width: 10%;
+	height: 100%;
+	border-bottom-left-radius: 100px;
+	border-top-left-radius: 100px;
+	border-left-color: #FF7804;
+	background-color: #FF7804;
+	cursor: pointer;
+	}
+
+.usuario{
+    border-radius: 100px;
+	background-color: #FF7804;
+	border-color: #FF7804;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height: 37%;
+  	width: 4.5%;
+}
+/* NAVBAR-FIM*/
+
+.container{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.linhasTab:hover{
+ 	background-color: #ffbc82;
+ }
+ 
+ #botCad:hover{
+ 	background-color: #CC5F02;
+ }
+
+.cor{
+	font-family: Red Hat Display;
+	color: #FF7804;
+	text-align: left;
+}
+
+/*RODAPÉ-INÍCIO*/
+
+.R{
+	display: flex;
+	width:100%;
+	height: 500px;
+	flex-direction: column;
+	padding-bottom:0;
+	position: relative;
+	bottom: 0;
+}
+
+.rodape{
+width: 100%;
+height: 80%;
+left: 0px;
+background: #131313;
+
+}
+
+.rodape1{
+left: 0px;
+width: 100%;
+height: 20%;
+background: #CC5F02;}
+
+
+
+.content {overflow:hidden;}
+.aside {width:200px;}
+.fleft {float:left;}
+.fright {float:right;}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+
+.institucional{position: absolute;
+	width: 300px; height: 340px;
+	left:10%; 
+}
+
+.suporte{position: absolute;
+	width: 300px; height: 340px;
+	left:30%; 
+}
+
+.midia{position: absolute;
+	width: 300px; height: 340px;
+	left:50%; 
+}
+.politica{position: absolute;
+	width: 300px; height: 340px;
+	left:70%; 
+}
+
+.a{
+	  text-align: center;
+  font-family: Roboto;
+  text-decoration: none;
+  color: white;
+}
+.a:hover{text-decoration: underline; color: white;}
+
+#a:hover{font-weight: bold; color:white;
+}
+
+.aa{text-decoration: none; color: #FF7804;}
+.aa:hover{text-decoration: underline; color: #FF7804;}
+
+#aa{text-align: center;
+font-family: Red Hat Display;
+text-decoration: none;
+color: white;
+}
+.pagamento{position: absolute;
+width: 295px;
+height: 97px;
+}
+
+#midia{position: absolute;
+}
+
+.logo1{
+	width: 164px;
+height: 126.34px;
+position: relative;
+}
+/*RODAPÉ-FIM*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    }
+    #wrapper{
+    min-height: 100%;
+    
+    }
+    .body-content{
+      /** Altura do rodapé tem que ser igual a isso aqui e vice-versa **/
+    padding-bottom: 433px;
+    padding-top: 0px;
+    }
+    footer{
+    background: #ffab62;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+    .cor{color: red; 
+    display: flex;  
+    flex-direction: column; 
+    align-items: flex-start;}
+    
+    /* NAVBAR-INICIO*/
+    .fixed-top{
+        display: flex;
+        flex-direction: column;
+        top:0;
+        right:0;
+        left:0;
+        height:150px;
+        z-index:1030;
+        position: -webkit-sticky;
+        position: sticky;
+    }
+    
+    ul{
+      list-style-type: none;
+      margin: auto;
+      padding: 0;
+      overflow: hidden;
+      background-color: #FF7804;
+      display: flex;
+      justify-content: center;
+    }
+    
+    ul li {
+      float: left;
+      border-right: 1px solid #FFFFFF;
+      width: 130px;
+      height: 100%;
+    }
+    
+    ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #CC5F02;
+      text-decoration: none;
+      color: white;
+    }
+    .barra1{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    background: #FF7804;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;}
+    
+    .barrainicial{
+    width: 100%;
+    height: 98px;
+    display: flex;
+    background: #131313;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-flow: row;
+    align-items: flex-end;
+    z-index: 2;}
+    
+    .p1{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+        width: 55%;
+    }
+    
+    .p2{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        width: 45%;
+    }
+    
+    .logo{
+    width: 330px;
+    height: 84px;
+    background-image: url(imagens/logo1.png);
+    }
+    
+    .pesquisa{
+    width: 90%;
+    height: 100%;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-right-color:#FFF;
+    background-color: white;
+    }
+    
+    .lupa{
+        width: 10%;
+        height: 100%;
+        border-bottom-left-radius: 100px;
+        border-top-left-radius: 100px;
+        border-left-color: #FF7804;
+        background-color: #FF7804;
+        cursor: pointer;
+        }
+    
+    .usuario{
+        border-radius: 100px;
+        background-color: #FF7804;
+        border-color: #FF7804;
+        display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 37%;
+          width: 4.5%;
+    }
+    /* NAVBAR-FIM*/
+    
+    .container{
+        padding-top: 0;
+        padding-bottom: 5%;
+    }
+    
+    .linhasTab:hover{
+         background-color: #ffbc82;
+     }
+     
+     #botCad:hover{
+         background-color: #CC5F02;
+     }
+    
+    .cor{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: #FF7804;
+        text-align: left;
+    }
+    
+    /*RODAPÉ-INÍCIO*/
+    
+    .R{
+        display: flex;
+        width:100%;
+        height: 500px;
+        flex-direction: column;
+        padding-bottom:0;
+        position: relative;
+        bottom: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    
+    .rodape{
+    width: 100%;
+    height: 80%;
+    left: 0px;
+    background: #131313;
+    
+    }
+    
+    .rodape1{
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    background: #CC5F02;}
+    
+    
+    
+    .content {overflow:hidden;}
+    .aside {width:200px;}
+    .fleft {float:left;}
+    .fright {float:right;}
+    
+    #footer {
+        position:absolute;
+        bottom:0;
+        width:100%;
+    }
+    
+    
+    .institucional{position: absolute;
+        width: 300px; height: 340px;
+        left:10%; 
+    }
+    
+    .suporte{position: absolute;
+        width: 300px; height: 340px;
+        left:30%; 
+    }
+    
+    .midia{position: absolute;
+        width: 300px; height: 340px;
+        left:50%; 
+    }
+    .politica{position: absolute;
+        width: 300px; height: 340px;
+        left:70%; 
+    }
+    
+    .a{
+          text-align: center;
+      font-family: Roboto;
+      text-decoration: none;
+      color: white;
+    }
+    .a:hover{text-decoration: underline; color: white;}
+    
+    #a:hover{font-weight: bold; color:white;
+    }
+    
+    .aa{text-decoration: none; color: #FF7804;}
+    .aa:hover{text-decoration: underline; color: #FF7804;}
+    
+    #aa{text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    }
+    .pagamento{position: absolute;
+    width: 295px;
+    height: 97px;
+    }
+    
+    #midia{position: absolute;
+    }
+    
+    .logo1{
+        width: 164px;
+    height: 126.34px;
+    position: relative;
+    }
+    /*RODAPÉ-FIM*/
+   
+
+.zoom{
+    width: 435px;
+    height: 355px;
+    overflow: hidden;
+    position:absolute;
+    display: inline-block;
+    border: 0px;
+ }
+ 
+ .zoom img{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ .zoom:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+ }
+
+ .icones{
+     position:absolute;
+     color:black;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     display: inline-block;
+     font-size: 10px;
+     width: 400px;
+ }
+
